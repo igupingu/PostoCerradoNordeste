@@ -6,4 +6,4 @@ combustiveis = (
 )
 clientes = []
 vendas = []
-cpfs_registrados = set()
+cpfs_existentes = set()
