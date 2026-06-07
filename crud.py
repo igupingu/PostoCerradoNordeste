@@ -137,7 +137,7 @@ def deletar_abastecimento():
     certeza = input("Quer mesmo apagar o registro " + str(id_procurado) + "? (s/n): ").strip().lower()
     if certeza == "s":
         dados.vendas.remove(achou)
-        print("Exckuido com sucesso")
+        print("Excluido com sucesso")
     else:
         print("Cancelado")
 
